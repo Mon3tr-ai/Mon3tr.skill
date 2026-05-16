@@ -13,6 +13,7 @@
 │       └── mon3tr.md
 └── ...
 ```
+当然你也可以复制 `mon3tr.md` 的内容到其他支持系统提示词的 AI hub
 
 ## 功能
 
@@ -33,7 +34,7 @@ Mon3tr 是明日方舟中的角色：
 
 ## 依赖
 
-使用此 skill 需要配合 [Mon3tr-MCP](https://github.com/your-username/Mon3tr-MCP) MCP 服务器，提供以下工具：
+使用此 skill 需要配合 [Mon3tr-MCP](https://github.com/Mon3tr-ai/Mon3tr-MCP) MCP 服务器，提供以下工具：
 
 | 工具 | 说明 |
 |------|------|
@@ -45,11 +46,6 @@ Mon3tr 是明日方舟中的角色：
 | `get_level_enemies` | 获取关卡敌人数据 |
 | `get_cell_info` | 获取地图格子含义 |
 | `get_map_legend` | 获取地图图例 |
-
-## 截图
-
-<!-- TODO: 添加实际截图 -->
-<!-- ![使用示例](./screenshots/example.png) -->
 
 ## 使用示例
 
@@ -89,7 +85,7 @@ Mon3tr: 博士，我来帮你安排。先让我查一下暴君的地图数据...
         { "name": "史尔特尔", "location": [4, 5], "direction": "左",
           "doc": "你史尔特尔奶奶来啦！", "doc_color": "red" }
     ],
-    "minimum_required": "v4.0",
+    "minimum_required": "v6.9.4",
     "doc": { "title": "暴君作业" },
     "difficulty": 3
 }
@@ -97,7 +93,7 @@ Mon3tr: 博士，我来帮你安排。先让我查一下暴君的地图数据...
 
 ## MAA
 
-[MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) 是明日方舟的自动化辅助工具。此 skill 生成的 JSON 作业可直接导入 MAA 使用。
+[MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) 是明日方舟的自动化辅助工具。此 skill 生成的 JSON 作业可直接导入 MAA 使用，但目前效果并不理想，请勿过分依赖ai。
 
 ## License
 
